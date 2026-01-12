@@ -1,2 +1,2 @@
 # llm-finetuning-platform
-Comprehensive Bias Analysis in Large Language Models with Mitigation Strategies
+Comprehensive bias analysis in Large Language Models with mitigation strategies.
