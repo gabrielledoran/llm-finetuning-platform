@@ -1,10 +1,10 @@
 # LLM Bias Evaluation Platform
 
-A framework for systematically measuring implicit bias in large language model outputs across demographic domains. Evaluates five LLMs — GPT-3.5-turbo, GPT-5.2, Claude Haiku, Claude Opus, and Llama 3.1-8B — across 8,800+ collected responses.
+A framework for systematically measuring implicit bias in large language model outputs across demographic domains. Evaluates GPT-3.5-turbo, GPT-5.2, Claude Haiku, Claude Opus, and Llama 3.1-8B across 8.8k collected responses.
 
 ## What This Does
 
-LLMs can encode and reproduce biases present in their training data, but measuring this is non-trivial: bias often shows up not in explicit slurs but in subtler patterns — sentiment skew, stereotype word density, or associations that shift depending on how a prompt is framed. This project builds a multi-metric evaluation pipeline to surface those patterns across four bias domains: **gender**, **race**, **socioeconomic status**, and **age**.
+LLMs can encode and reproduce biases present in their training data. Responsible treatment of this bias requires identifying subtle patterns like sentiment skew, stereotype or dog whistle word density, or associations that shift depending on how prompts are framed. This project builds a multi-metric evaluation pipeline to surface those patterns across four bias domains: **gender**, **race**, **socioeconomic status**, and **age**.
 
 ## Notebooks
 
