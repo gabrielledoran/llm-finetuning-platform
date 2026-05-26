@@ -1,10 +1,10 @@
 # LLM Bias Evaluation Platform
 
-A framework for systematically measuring implicit bias in large language model outputs across demographic domains. Evaluates GPT-3.5-turbo, GPT-5.2, Claude Haiku, Claude Opus, and Llama 3.1-8B across 8.8k collected responses.
+A framework for systematically measuring implicit bias in large language model outputs across demographic domains. Evaluates GPT-3.5-turbo, Claude Opus 4.5, and Claude Haiku 4.5 across 8.8k collected responses.
 
 ## What This Does
 
-LLMs can encode and reproduce biases present in their training data. Responsible treatment of this bias requires identifying subtle patterns like sentiment skew, stereotype or dog whistle word density, or associations that shift depending on how prompts are framed. This project builds a multi-metric evaluation pipeline to surface those patterns across four bias domains: **gender**, **race**, **socioeconomic status**, and **age**.
+LLMs can encode and reproduce biases present in their training data. Responsible treatment of this bias requires identifying subtle patterns like sentiment skew, stereotype or "dog whistle" word density, or associations that shift depending on how prompts are framed. This project builds a multi-metric evaluation pipeline to surface those patterns across four bias domains: **gender**, **race**, **socioeconomic status**, and **age**.
 
 ## Notebooks
 
@@ -37,7 +37,7 @@ Both notebooks are designed to run on **Google Colab with an A100 GPU** for the 
 
 ## Data
 
-8,818 collected responses across four bias domains and four context types (casual, professional, creative, technical). Data is loaded from Google Drive in the notebooks; the `data/` directory documents the schema and preprocessing steps.
+8,818 collected responses across four bias domains and four context types (casual, professional, creative, technical). Data is loaded from Google Drive in the notebooks; see `data/`.
 
 ## Setup
 
